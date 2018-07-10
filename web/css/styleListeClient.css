@@ -1,0 +1,81 @@
+* {
+    text-align: center;
+}
+
+div#conteneur {
+    background: whitesmoke;
+    font-family: 'Concert One', cursive;
+}
+
+header {
+   border : 3px solid black;
+   box-shadow: 2px 2px 5px grey;
+   border-radius: 5px;
+   background: #FFFD91;
+    
+}
+
+main {
+     background: linear-gradient(whitesmoke, #B6F1FF);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     border-bottom-left-radius: 5px;
+     border-bottom-right-radius: 5px;
+}
+
+.lien {
+    color : black;
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+}
+
+li:hover {
+    background: grey;
+}
+
+p {
+    padding : 5px 0 0;
+    margin :0;
+    
+}
+
+a.lienInscription {
+    align-self: center;
+    width: 30%;
+    border : 3px solid #FFFD91;
+    background-color: #B6F1FF;
+    color : black;
+}
+a.lienInscription:hover {
+    border : none;
+    border : 3px solid #B6F1FF;
+    background-color: #FFFD91;
+}
+
+a.lienSup {
+    padding: 3px 5px;
+    margin-left: 10px;
+    border : 3px solid #FFFD91;
+    background-color: #B6F1FF;
+    font-weight: 200;
+    border-radius: 5px;
+}
+a.lienSup:hover {
+    
+    background-color: #FFFD91;
+    border-radius: 5px;
+}
