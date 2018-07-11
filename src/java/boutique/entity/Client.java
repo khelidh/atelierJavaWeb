@@ -26,6 +26,10 @@ public class Client implements Serializable {
     
     private String nom, prenom, rue;
     private Integer numero, codePostal;
+    
+    private String login, pass;
+    
+   
 
     
     

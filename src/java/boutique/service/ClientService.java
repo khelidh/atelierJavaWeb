@@ -27,4 +27,8 @@ public class ClientService {
     public void supprimer(Long id) {
         clientDAO.supprimer(id);
     }
+
+    public Client checkIdentifiants(String login, String pass) {
+        return clientDAO.find(login, pass);
+    }
 }

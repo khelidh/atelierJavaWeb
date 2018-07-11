@@ -1,0 +1,18 @@
+footer {
+    background: linear-gradient(whitesmoke, #B6F1FF);
+}
+
+footer p{
+    margin: 0 0 5px;
+}
+
+nav#menuFooter {
+    padding: 5px 0 10px;
+}
+
+
+nav#menuFooter a {
+    text-decoration: none;
+    color : brown;
+    padding: 3px 7px;
+}

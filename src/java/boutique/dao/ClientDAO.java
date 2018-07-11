@@ -44,6 +44,14 @@ public class ClientDAO {
         
         em.getTransaction().commit();
     }
+
+    public Client find(String login, String pass) {
+        EntityManager em = Persistence.createEntityManagerFactory("PU").createEntityManager();
+        Query query = em.createQuery("SELECT c FROM Client c WHERE  c.login=:login AND c.pass=:pass")
+                .setParameter("login", login).setParameter("pass", pass);
+       
+            return (Client) query.getSingleResult(); 
+    }
     
     
 }

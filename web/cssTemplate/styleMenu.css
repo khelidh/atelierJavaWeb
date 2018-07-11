@@ -1,0 +1,17 @@
+nav#menu{
+    display: flex;
+    justify-content: space-around;
+
+    background: linear-gradient(whitesmoke, #B6F1FF);
+    
+    border-top: 5px solid #100f27;
+    border-bottom: 1px solid #100f27;
+    
+}
+
+nav#menu a.lien {
+    text-decoration: none;
+    color : black;
+    padding: 3px 7px;
+    text-shadow : 1px 1px 5px gold, -1px 1px 5px gold;
+}

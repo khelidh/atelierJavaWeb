@@ -10,21 +10,23 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <meta http-equiv="Cache-Control" content="no-cache">
+        <title>Template of Centurion</title>
+        <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Boogaloo|Fredoka+One" rel="stylesheet">
         
         <c:import url="_STYLESHEET.jsp"/>
     </head>
     <body>
-        <c:import url="_TITRE.jsp"/>
+        <c:import url="HEADER.jsp"/>
         <c:import url="_MENU.jsp"/>
         
-        <div>Contenu</div>
+        <div id="contenu">      <p>Contenu</p>    </div>
         
         <c:import url="_FOOTER.jsp"/>
         <c:import url="_JAVASCRIPT.jsp"/>
         
-        
-        
+            
         
     </body>
 </html>
